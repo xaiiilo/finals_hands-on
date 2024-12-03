@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background"></div>
+
+    <nav class="navbar">
+        <div class="logo">Xai's Portfolio</div>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#work">Work Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="hero" class="container">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Let us see what you guys can learn about me, now, let us know about myself :)).</p>
+    </section>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Hello!, Annyeong!, Tajahao!! It's me Tanay, Xynex Kim from BSIT 2A.</p><br>
+        <p>I'm 19 years old anyway, I take the course BSIT because that is what's my mom wants me to take tho its fine I don't have anything in my mind honestly but I never thought that it would be this hard lol the main reason why is because I do not have a laptop so everytime a quizzes, test and the likes that will needed a laptop, I'm having a hard time doing it because I don't own one but thankfully my cousin has so I have something to use I just need to ask her early so she will give me a time to use it <33. Even tho I'm having a hard time atleast I am enjoying what I'm doing, just really need to exert some effort to accomplish everything I need.</p>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <ul>
+            <li>Video Editing</li>
+            <li>Problem Solving</li>
+            <li>Data Analysis</li>
+        </ul>
+    </section>
+
+    <section id="work" class="container">
+        <h2>Work Experience</h2>
+        <p>Haven'n tried it yet, not even once but I'm looking forward that in the near future, I'll be able to have a work to have a experience.</p>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <p>The one I made back then in my first year college, is the <strong>"Code Compilation"</strong> that is for first semester then the next one is the <strong>"GUI"</strong> this one is what I really liked the most like new windows are popping out, I'd like to make another one in the future again.</p>
+    </section>
+
+    
+    <!-- Contact Section -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="path/to/font-awesome/css/all.min.css">
+    <section id="contact" class="container">
+      <h2>Contact</h2>
+      <div class="contact-layout">
+        <!-- Left Side: Email and Phone -->
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+          <p><strong>Email:</strong> <a href="mailto:your.email@example.com">xynexkimtanay@gmail.com</a></p>
+          <p><strong>Phone:</strong> <a href="tel:+123456789">0902171028</a></p>
+        </div>
+
+        <!-- Right Side: Social Media Links -->
+        <div class="social-links">
+            <h3>Follow Me</h3>
+            <p>Stay connected through my social media channels:</p>
+            <a href="https://https://github.com/xaiiilo/finals_hands-on" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.instagram.com/xynexkyym_?igsh=MXM1eDljZWx2OXQwaQ==" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/xynexkyym?mibextid=ZbWKwL" target="_blank" aria-label="Facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
+
+        </div>
+    </div>
+</section>
+
+    <footer class="footer">
+        <p>&copy; 2024 cyneckmm. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
