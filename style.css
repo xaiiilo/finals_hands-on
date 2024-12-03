@@ -1,12 +1,11 @@
-
 body, html {
     margin: 0;
     padding: 0;
-    font-family: EB Garamond, Sans-Serif;
+    font-family: DM Serif Display, Sans-Serif;
     color: #fff;
     overflow-x: hidden;
 }
-
+/* it's supposed to be a photo po sa bg kaso nagkakagulo lamang ay nasisira po yung code kaya po nag colour na lang ako */
 .background {
     position: fixed;
     top: 0;
@@ -132,7 +131,7 @@ body, html {
     color: #ffebee;
     transform: scale(1.2);
 }
-
+/* each section's container  */
 .container {
     margin: 100px auto;
     padding: 20px;
@@ -143,6 +142,7 @@ body, html {
     text-align: center;
 }
 
+/* para sa footer */
 .footer {
     text-align: center;
     padding: 10px;
